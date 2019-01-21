@@ -1,0 +1,335 @@
+/*
+
+	File Name: Responsive.css
+	Template Name: Andazi - Minimal Portfolio Template
+	Created By: Mixturethemes
+	http://themeforest.net/user/mixturethemes
+	
+*/
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+
+	
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.content_title p {
+		padding:0 90px;
+	}
+	
+	.single_skill.nopadbot {
+		padding-bottom:60px;
+	}
+	
+	div.andazi_panel_items > div > div img.single_post_img {
+		min-width:100%;
+	}
+	
+	div.andazi_panel_items nav {
+		margin-left:-125px;
+	}
+	
+	.comment_form textarea,
+	.contact_form textarea {
+		margin:0;
+	}
+	
+	.contact_form_wrapper{
+		padding:0
+	}
+	
+	#map-canvas {
+		margin-bottom:90px;
+	}
+	
+	/* layout2 */
+	
+	.hexagon {
+		margin-bottom:60px;
+	}
+	
+	.our_clients.layout2 img {
+		margin:35px auto;
+	}
+	
+	.float-bar.layout2 {
+		z-index: 1;
+		height: 60px;
+		min-width: 60px;
+		margin-left:46%;
+		top:-175px;
+	}
+	
+	.float-bar.layout2 .float-bar-triggler {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.footer.layout2 {
+		padding:90px 0;
+	}
+	
+	.section_footer.layout2 {
+		background:none;
+	}
+	
+	.section_footer.layout2:before {
+		top: -158px;
+	}
+	
+	.section_footer.layout2:after {
+		top: -158px;
+	}
+	
+	body.layout2 div.andazi_panel_items > div > div img.single_post_img {
+		width:100%;
+	}
+	
+	body.layout2 #contact .footer.layout2 {
+		margin-top:120px;
+	}
+
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.content_title p {
+		padding:0 15px;
+	}
+	
+	.single_skill.nopadbot {
+		padding-bottom:60px;
+	}
+	
+	.section_footer {
+		text-align:center;
+		line-height:1.8;
+		padding: 50px 15px 50px;
+	}
+	
+	.float-bar {
+		float:none;
+		display:inline-block;
+		margin:10px auto 0;
+	}
+	
+	.float-bar-inn-wrap {
+		display:none;
+	}
+	
+	.grid-filter {
+		padding-left:5px;
+	}
+	
+	.valign span {
+		font-size:42px;
+	}
+	
+	.comment_form textarea,
+	.contact_form textarea {
+		margin:0;
+	}
+	
+	div.andazi_panel_items nav {
+		margin-left:-135px;
+	}
+	
+	#map-canvas {
+		margin-top:0;
+		margin-bottom:90px;
+	}
+	
+	/* layout2 */
+	
+	.hexagon {
+		margin-bottom:60px;
+	}
+	
+	.float-bar.layout2 {
+		z-index: 1;
+		height: 40px;
+		min-width: 40px;
+		margin-left:-6%;
+		top:-125px;
+	}
+	
+	.float-bar.layout2 .float-bar-triggler {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.footer.layout2 {
+		padding:60px 0;
+	}
+	
+	.section_footer.layout2 {
+		background:none;
+	}
+	
+	.section_footer.layout2:before {
+		top: -105px;
+		width: 120px;
+		height: 40px;
+	}
+	
+	.section_footer.layout2:after {
+		top: -105px;
+		width: 120px;
+		height: 40px;
+	}
+	
+	body.layout2 .three {
+		margin-top:90px;
+	}
+	
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+
+	h3 {
+		font-size:20px;
+	}
+	h4 {
+		font-size:16px;
+	}
+	p {
+		font-size:12px;
+	}
+	#site_title h3 {
+		width:100px;
+		height:100px;
+		font-size:60px;
+	}
+
+	.andazi_front h3 {
+		font-size:20px;
+	}
+	
+	.body_content > section .inside_site_title {
+		top:5px;
+	}
+	.body_content > section .andazi-close {
+		top:10px;
+	}
+	
+	.content_title p {
+		padding:0 30px;
+	}
+	
+	.single_skill.nopadbot {
+		padding-bottom:60px;
+	}
+	
+	.section_footer {
+		text-align:center;
+		line-height:1.8;
+		padding: 50px 15px 50px;
+	}
+	
+	.float-bar {
+		float:none;
+		display:inline-block;
+		margin:10px auto 0;
+	}
+	
+	.float-bar-inn-wrap {
+		display:none;
+	}
+	
+	.grid-filter {
+		padding-left:5px;
+	}
+	
+	.grid-filter li {
+		margin: 0px 5px 10px 0px;
+	}
+	
+	.single_post {
+		margin-bottom:0;
+	}
+	
+	.comment_form textarea {
+		margin:0;
+	}
+	
+	#map-canvas {
+		margin-top:0;
+		margin-bottom:90px;
+	}
+	
+	/* layout2 */
+	
+	.hexagon {
+		margin-bottom:60px;
+	}
+	
+	.float-bar.layout2 {
+		z-index: 1;
+		height: 40px;
+		min-width: 40px;
+		margin-left:-6%;
+		top:-115px;
+	}
+	
+	.float-bar.layout2 .float-bar-triggler {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.footer.layout2 {
+		padding:60px 0;
+	}
+	
+	.section_footer.layout2 {
+		background:none;
+	}
+	
+	.section_footer.layout2:before {
+		top: -95px;
+		width: 120px;
+		height: 40px;
+	}
+	
+	.section_footer.layout2:after {
+		top: -95px;
+		width: 120px;
+		height: 40px;
+	}
+	
+	body.layout2 .single_work_quick_links span {
+		width:20px;
+		height:20px;
+		line-height:1.1;
+		font-size:13px;
+	}
+	
+	body.layout2 .single_work_quick_links a.single_work_purchase {
+		margin: 15px 0px 0px 0px;
+	}
+	
+	body.layout2 div.andazi_panel_items nav {
+		margin-left:-130px;
+	}
+	
+	body.layout2 div.andazi_panel_items nav span.andazi-next {
+		margin-left:15px;
+	}
+	
+	body.layout2 div.andazi_panel_items nav span.andazi-prev {
+		margin-right:15px;
+	}
+	
+	.comment_form textarea,
+	.contact_form textarea {
+		margin:0;
+	}
+	
+	body.layout2 .three {
+		margin-top:90px;
+	}
+
+}

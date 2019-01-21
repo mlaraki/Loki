@@ -3,9 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "black-scholes": "^1.1.0",
+    "bulma": "^0.7.2",
+    "data-tree": "^1.2.4",
+    "google-form": "^1.0.2",
+    "katex": "^0.10.0",
+    "mathjax": "^2.7.5",
+    "option-pricing-tree": "^1.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-helmet": "^5.2.0",
+    "react-katex": "^2.0.2",
+    "react-latex": "^1.2.0",
+    "react-mathjax": "^1.0.1",
+    "react-mathjax-preview": "^0.1.10",
+    "react-pose": "^3.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-telegram-embed": "0.0.9",
+    "react-tree-graph": "^3.2.0",
+    "semantic-ui": "^2.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
